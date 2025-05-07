@@ -5,7 +5,7 @@
 TIMESTAMP=$(date +"%Y%m%d")
 DATES=$(date +"%Y-%m-%d")
 FW=RUI1
-KSU=1  # KernelSU Setup (0 = No, 1 = Yes)
+KSU=0  # KernelSU Setup (0 = No, 1 = Yes)
 SUS_FS=0 # SuSFS Patches
 USE_CUSTOM_GCC=1 # Use Custom GCC Toolchain (0 = No, 1 = Yes)
 WIREGUARD=0 # Integrate wireguard (0 = No, 1 = yes)
